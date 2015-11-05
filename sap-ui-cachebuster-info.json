@@ -1,0 +1,20 @@
+{
+  "Component.js": "1445592663673",
+  "css/fullScreenStyles.css": "1445592663684",
+  "i18n/i18n.properties": "1445592663720",
+  "i18n/i18n_en.properties": "1445592663724",
+  "i18n/messageBundle.properties": "1445592663895",
+  "index.html": "1445592663667",
+  "localIndex.html": "1445592663677",
+  "mock_preview_sapui5.html": "1445514974330",
+  "model/AbsenceSet.json": "1445592663711",
+  "model/metadata.xml": "1445592663728",
+  "model/usersSet.json": "1445592663716",
+  "util/messages.js": "1445592663726",
+  "view/AddSubstitute.fragment.xml": "1445592663690",
+  "view/Main.controller.js": "1445592663694",
+  "view/Main.view.xml": "1445592663696",
+  "view/Master.controller.js": "1445592663705",
+  "view/Master.view.xml": "1445592663700",
+  "view/UserPicker.fragment.xml": "1445592663698"
+}

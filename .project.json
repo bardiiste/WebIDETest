@@ -1,0 +1,35 @@
+{
+  "dataBinding": {
+    "/view/Master.view.xml": {
+      "entitySet": "AbsenceSet"
+    },
+    "/view/Main.view.xml": {
+      "entitySet": "UNBINDKEY"
+    }
+  },
+  "generation": [
+    {
+      "templateId": "ui5template.fioriFullScreen",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 14 Oct 2015 13:24:33 GMT"
+    }
+  ],
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/ZABSENCE_PO_SRV/",
+    "metadataFilePath": "/model/metadata.xml",
+    "loadJSONFiles": true,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "deploy": {
+    "destination": "DEF",
+    "name": "ZHR_ABS_MANAGE"
+  }
+}

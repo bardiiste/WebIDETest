@@ -1,0 +1,81 @@
+<!--
+
+
+
+
+
+
+
+    Copyright (C) 2009-2014 SAP SE or an SAP affiliate company. All rights reserved
+
+
+
+
+
+
+
+-->
+
+
+
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+
+
+
+
+
+
+
+<List id="LST_SEARCH_USERS" items="{/usersSet}" 
+
+
+
+				showNoData="false" noDataText="{i18n]forward.noRecipients}">
+
+
+
+				<StandardListItem id="ITM_USER" 
+
+
+
+						title="{Fullname}" 
+
+
+
+						description="{UserId}"
+
+
+
+						type="Active"
+
+
+
+						press="handleUserSelectionChange"
+
+
+
+						>
+
+
+
+				</StandardListItem>
+
+
+
+				
+
+
+
+				</List>
+
+
+
+
+
+
+
+
+
+
+
+</core:FragmentDefinition>

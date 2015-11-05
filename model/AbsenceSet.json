@@ -1,0 +1,141 @@
+[{
+
+	"Us_Name": "ALO10089",
+
+	"Rep_Name": "Rep_Name 1",
+
+	"Begda": "/Date(1449529200000)/",
+
+	"Endda": "/Date(1450393200000)/",
+
+	"Rep_Fullname": "Rep_Fullname 1",
+
+	"__metadata": {
+
+		"uri": "AbsenceSet(Us_Name='Us_Name 1',Rep_Name='Rep_Name 1',Begda=datetime'2007-12-08T17:06:51')",
+
+		"type": "ZABSENCE_SRV.Absence"
+
+	}
+
+}, {
+
+	"Us_Name": "ALO10089",
+
+	"Rep_Name": "Rep_Name 2",
+
+	"Begda": "/Date(1444687200000)/",
+
+	"Endda": "/Date(1446073200000)/",
+
+	"Rep_Fullname": "Rep_Fullname 2",
+
+	"__metadata": {
+
+		"uri": "AbsenceSet(Us_Name='Us_Name 2',Rep_Name='Rep_Name 2',Begda=datetime'2014-04-13T16:06:51')",
+
+		"type": "ZABSENCE_SRV.Absence"
+
+	}
+
+}, {
+
+	"Us_Name": "ALO10089",
+
+	"Rep_Name": "Rep_Name 3",
+
+	"Begda": "/Date(1313165211000)/",
+
+	"Endda": "/Date(1417194411000)/",
+
+	"Rep_Fullname": "Rep_Fullname 3",
+
+	"__metadata": {
+
+		"uri": "AbsenceSet(Us_Name='Us_Name 3',Rep_Name='Rep_Name 3',Begda=datetime'2011-08-12T16:06:51')",
+
+		"type": "ZABSENCE_SRV.Absence"
+
+	}
+
+}, {
+
+	"Us_Name": "ALO10089",
+
+	"Rep_Name": "Rep_Name 4",
+
+	"Begda": "/Date(1093450011000)/",
+
+	"Endda": "/Date(1366646811000)/",
+
+	"Rep_Fullname": "Rep_Fullname 4",
+
+	"__metadata": {
+
+		"uri": "AbsenceSet(Us_Name='Us_Name 4',Rep_Name='Rep_Name 4',Begda=datetime'2004-08-25T16:06:51')",
+
+		"type": "ZABSENCE_SRV.Absence"
+
+	}
+
+}, {
+
+	"Us_Name": "ALO10089",
+
+	"Rep_Name": "Rep_Name 5",
+
+	"Begda": "/Date(986227611000)/",
+
+	"Endda": "/Date(1112544411000)/",
+
+	"Rep_Fullname": "Rep_Fullname 5",
+
+	"__metadata": {
+
+		"uri": "AbsenceSet(Us_Name='Us_Name 5',Rep_Name='Rep_Name 5',Begda=datetime'2001-04-02T16:06:51')",
+
+		"type": "ZABSENCE_SRV.Absence"
+
+	}
+
+}, {
+
+	"Us_Name": "Us_Name 6",
+
+	"Rep_Name": "Rep_Name 6",
+
+	"Begda": "/Date(1350058011000)/",
+
+	"Endda": "/Date(1245254811000)/",
+
+	"Rep_Fullname": "Rep_Fullname 6",
+
+	"__metadata": {
+
+		"uri": "AbsenceSet(Us_Name='Us_Name 6',Rep_Name='Rep_Name 6',Begda=datetime'2012-10-12T16:06:51')",
+
+		"type": "ZABSENCE_SRV.Absence"
+
+	}
+
+}, {
+
+	"Us_Name": "ALO10089",
+
+	"Rep_Name": "Rep_Name 7",
+
+	"Begda": "/Date(973616811000)/",
+
+	"Endda": "/Date(971453211000)/",
+
+	"Rep_Fullname": "Rep_Fullname 7",
+
+	"__metadata": {
+
+		"uri": "AbsenceSet(Us_Name='Us_Name 7',Rep_Name='Rep_Name 7',Begda=datetime'2000-11-07T17:06:51')",
+
+		"type": "ZABSENCE_SRV.Absence"
+
+	}
+
+}]

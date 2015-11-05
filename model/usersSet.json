@@ -1,0 +1,281 @@
+[{
+
+	"UserId": "UserId 1",
+
+	"SearchText": "Toto",
+
+	"Fullname": "Fullname 1",
+
+	"Email": "Email 1",
+
+	"Department": "Department 1",
+
+	"Building": "Building 1",
+
+	"Roomnumber": "Roomnumber 1",
+
+	"TotalNumUsers": 754,
+
+	"MimeType": "MimeType 1",
+
+	"__metadata": {
+
+		"uri": "usersSet('UserId 1')",
+
+		"type": "ZABSENCE_SRV.users"
+
+	}
+
+}, {
+
+	"UserId": "UserId 2",
+
+	"SearchText": "Toto",
+
+	"Fullname": "Fullname 2",
+
+	"Email": "Email 2",
+
+	"Department": "Department 2",
+
+	"Building": "Building 2",
+
+	"Roomnumber": "Roomnumber 2",
+
+	"TotalNumUsers": 7932,
+
+	"MimeType": "MimeType 2",
+
+	"__metadata": {
+
+		"uri": "usersSet('UserId 2')",
+
+		"type": "ZABSENCE_SRV.users"
+
+	}
+
+}, {
+
+	"UserId": "UserId 3",
+
+	"SearchText": "Dupont",
+
+	"Fullname": "Michel Dupont",
+
+	"Email": "Email 3",
+
+	"Department": "Department 3",
+
+	"Building": "Building 3",
+
+	"Roomnumber": "Roomnumber 3",
+
+	"TotalNumUsers": 3740,
+
+	"MimeType": "MimeType 3",
+
+	"__metadata": {
+
+		"uri": "usersSet('UserId 3')",
+
+		"type": "ZABSENCE_SRV.users"
+
+	}
+
+}, {
+
+	"UserId": "UserId 4",
+
+	"SearchText": "SearchText 4",
+
+	"Fullname": "Fullname 4",
+
+	"Email": "Email 4",
+
+	"Department": "Department 4",
+
+	"Building": "Building 4",
+
+	"Roomnumber": "Roomnumber 4",
+
+	"TotalNumUsers": 1359,
+
+	"MimeType": "MimeType 4",
+
+	"__metadata": {
+
+		"uri": "usersSet('UserId 4')",
+
+		"type": "ZABSENCE_SRV.users"
+
+	}
+
+}, {
+
+	"UserId": "UserId 5",
+
+	"SearchText": "Toto",
+
+	"Fullname": "Fullname 5",
+
+	"Email": "Email 5",
+
+	"Department": "Department 5",
+
+	"Building": "Building 5",
+
+	"Roomnumber": "Roomnumber 5",
+
+	"TotalNumUsers": 5608,
+
+	"MimeType": "MimeType 5",
+
+	"__metadata": {
+
+		"uri": "usersSet('UserId 5')",
+
+		"type": "ZABSENCE_SRV.users"
+
+	}
+
+}, {
+
+	"UserId": "UserId 6",
+
+	"SearchText": "Dupont",
+
+	"Fullname": "Martine Dupont",
+
+	"Email": "Email 6",
+
+	"Department": "Department 6",
+
+	"Building": "Building 6",
+
+	"Roomnumber": "Roomnumber 6",
+
+	"TotalNumUsers": 6496,
+
+	"MimeType": "MimeType 6",
+
+	"__metadata": {
+
+		"uri": "usersSet('UserId 6')",
+
+		"type": "ZABSENCE_SRV.users"
+
+	}
+
+}, {
+
+	"UserId": "UserId 7",
+
+	"SearchText": "SearchText 7",
+
+	"Fullname": "Fullname 7",
+
+	"Email": "Email 7",
+
+	"Department": "Department 7",
+
+	"Building": "Building 7",
+
+	"Roomnumber": "Roomnumber 7",
+
+	"TotalNumUsers": 9414,
+
+	"MimeType": "MimeType 7",
+
+	"__metadata": {
+
+		"uri": "usersSet('UserId 7')",
+
+		"type": "ZABSENCE_SRV.users"
+
+	}
+
+}, {
+
+	"UserId": "UserId 8",
+
+	"SearchText": "Martin",
+
+	"Fullname": "Fullname 8",
+
+	"Email": "Email 8",
+
+	"Department": "Department 8",
+
+	"Building": "Building 8",
+
+	"Roomnumber": "Roomnumber 8",
+
+	"TotalNumUsers": 5587,
+
+	"MimeType": "MimeType 8",
+
+	"__metadata": {
+
+		"uri": "usersSet('UserId 8')",
+
+		"type": "ZABSENCE_SRV.users"
+
+	}
+
+}, {
+
+	"UserId": "UserId 9",
+
+	"SearchText": "SearchText 9",
+
+	"Fullname": "Fullname 9",
+
+	"Email": "Email 9",
+
+	"Department": "Department 9",
+
+	"Building": "Building 9",
+
+	"Roomnumber": "Roomnumber 9",
+
+	"TotalNumUsers": 4554,
+
+	"MimeType": "MimeType 9",
+
+	"__metadata": {
+
+		"uri": "usersSet('UserId 9')",
+
+		"type": "ZABSENCE_SRV.users"
+
+	}
+
+}, {
+
+	"UserId": "UserId 10",
+
+	"SearchText": "Toto",
+
+	"Fullname": "Fullname 10",
+
+	"Email": "Email 10",
+
+	"Department": "Department 10",
+
+	"Building": "Building 10",
+
+	"Roomnumber": "Roomnumber 10",
+
+	"TotalNumUsers": 3653,
+
+	"MimeType": "MimeType 10",
+
+	"__metadata": {
+
+		"uri": "usersSet('UserId 10')",
+
+		"type": "ZABSENCE_SRV.users"
+
+	}
+
+}]

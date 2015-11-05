@@ -1,0 +1,17 @@
+<core:View xmlns:core="sap.ui.core"
+
+
+
+           xmlns="sap.m" controllerName="ZHR_ABSENCE_MANAGEMENT.view.Main" displayBlock="true" height="100%">
+
+
+
+        <App id="fioriContent">
+
+
+
+        </App>
+
+
+
+</core:View>

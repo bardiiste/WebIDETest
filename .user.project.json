@@ -1,0 +1,56 @@
+{
+  "run": [
+    {
+      "filePath": "/ZHR_ABS_MANAGE/Component.js",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        },
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        }
+      ],
+      "_metadata": {
+        "id": 9946507,
+        "runnerId": "fiorirunner",
+        "displayName": "FIORI"
+      }
+    },
+    {
+      "filePath": "/ZHR_ABS_MANAGE/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [
+        {
+          "paramName": "sap-ui-debug",
+          "paramValue": "true",
+          "paramActive": true
+        },
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        }
+      ],
+      "_metadata": {
+        "id": 3453571,
+        "runnerId": "webapprunner",
+        "displayName": "Absence with mock"
+      }
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+<Dialog xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified"
+
+
+
+		contentWidth="400px" contentHeight="650px" beforeClose="onBeforeCloseDialog" showHeader="false">
+
+
+
+		<NavContainer id="NAV_ADD_SUBST">
+
+
+
+			<Page id="detail_substitutes" showNavButton="false" navButtonPress="onNavBack" title="{i18n>substn.table.user_name}">
+
+
+
+				<subHeader>
+
+
+
+      				<Toolbar>
+
+
+
+        				<SearchField id="SEARCH_SUBSTITUTE" search="onSearchOfSubstitutes" width="100%"/>
+
+
+
+      				</Toolbar>
+
+
+
+    			</subHeader>
+
+
+
+    			<content>
+
+
+
+    				<List id="LST_SEARCH_USERS" 
+
+
+
+				showNoData="true" noDataText="{i18n>Forward.noRecipients}">
+
+
+
+				<StandardListItem id="ITM_USER" 
+
+
+
+						title="{Fullname}" 
+
+
+
+						description="{UserId}"
+
+
+
+						type="Active"
+
+
+
+						press="handleUserSelectionChange"
+
+
+
+						>
+
+
+
+				</StandardListItem>
+
+
+
+				
+
+
+
+				</List>
+
+
+
+    			</content>
+
+
+
+			</Page>
+
+
+
+			<Page id="date_selection" showNavButton="false" title="{i18n>substn.create.choose_substn_period}">
+
+
+
+				<List id="LST_SUBS_DATA"  showSeparators="None"  >
+
+
+
+						<items>
+
+
+
+					      <StandardListItem
+
+
+
+					        title= "{userDataModel>/Fullname}"
+
+
+
+					        icon= " "
+
+
+
+					        iconInset="false"
+
+
+
+					        description="{userDataModel>/UserId}"
+
+
+
+					       />
+
+
+
+					      <StandardListItem
+
+
+
+					      	icon=" "
+
+
+
+					      	iconInset = "false"
+
+
+
+					        title="{i18n>substn.table.duration}"
+
+
+
+					        description="{userDataModel>/period}"
+
+
+
+					       />
+
+
+
+					    </items>
+
+
+
+				</List>
+
+
+
+				<content>
+
+
+
+					<FlexBox
+
+
+
+	          		alignItems="Center"
+
+
+
+	          		justifyContent="Center">
+
+
+
+	          			<items>
+
+
+
+		            		<u:Calendar id="selectionCalendar"
+
+
+
+			                    intervalSelection="true"
+
+
+
+			                     selectionMode="RANGE"             
+
+
+
+			             		 select="onChangeRange" tapOnDate= "onSingleDateSelection">
+
+
+
+		             		 </u:Calendar>
+
+
+
+	          			</items>
+
+
+
+	        		</FlexBox>
+
+
+
+                </content>
+
+
+
+            </Page>       
+
+
+
+		</NavContainer>
+
+
+
+		<beginButton>
+
+
+
+			<Button id="BTN_SAVE" text="{i18n>substn.create.save}" press="handleCreateSubstitutionPopOverSave"/>
+
+
+
+		</beginButton>
+
+
+
+		
+
+
+
+		<endButton>
+
+
+
+        	<Button id="BTN_CANCEL" text="{i18n>substn.delete.cancel_button}" press="handleCreateSubstitutionPopOverCancel"/>
+
+
+
+		</endButton>
+
+
+
+	</Dialog>

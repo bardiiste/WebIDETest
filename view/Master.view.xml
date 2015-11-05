@@ -1,0 +1,87 @@
+<core:View controllerName="ZHR_ABSENCE_MANAGEMENT.view.Master" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:table="sap.ui.table"
+
+	xmlns="sap.m">
+
+	<Page id="substitutionRulesPage" navButtonPress="onNavBack" showNavButton="true" title="{i18n>masterTitle}">
+
+		<content>
+
+			<Table id="substitutionRules" class="navTableControlLayout" growing="true" growingScrollToLoad="true" 
+
+			mode="SingleSelectMaster" selectionChange="handleRuleSelection">
+
+				<columns id="catalogTable_columns">
+
+					<Column hAlign="Left" id="catalogTable_col1" width="{viewProperties]/availabilityColumnWidth}">
+
+						<header id="catalogTable_col1_header">
+
+							<Label id="catalogTable_col1_label" text="{i18n>substn.subsitutesTitle}"/>
+
+						</header>
+
+					</Column>
+
+					<Column hAlign="Left" id="catalogTable_col2" width="{viewProperties]/availabilityColumnWidth}">
+
+						<header id="catalogTable_col2_header">
+
+							<Label id="catalogTable_col2_label" text="{i18n>substn.stDateTitle}"/>
+
+						</header>
+
+					</Column>
+
+					<Column demandPopin="true" hAlign="Right" id="catalogTable_col3" width="{viewProperties]/availabilityColumnWidth}">
+
+						<header id="catalogTable_col3_header">
+
+							<Label id="catalogTable_col3_label" text="{i18n>substn.endDateTitle}"/>
+
+						</header>
+
+					</Column>
+
+				</columns>
+
+				<ColumnListItem class="navTableItemLayout" id="columnListItem" vAlign="Middle">
+
+					<cells id="columnListItem_cells">
+
+						<Text id="columnListItem_cell_1" maxLines="2" text="{Rep_Fullname}"></Text>
+
+						<Text id="columnListItem_cell_2" maxLines="2" text="{path: 'Begda', type: 'sap.ui.model.type.Date', formatOptions: {style: 'medium'}}"></Text>
+
+						<ObjectNumber id="columnListItem_cell_3" number="{path: 'Endda', type: 'sap.ui.model.type.Date', formatOptions: {style: 'medium'}}"></ObjectNumber>
+
+						<ObjectStatus id="columnListItem_cell_4" state="None" text=""></ObjectStatus>
+
+					</cells>
+
+				</ColumnListItem>
+
+			</Table>
+
+		</content>
+
+			<footer>
+
+			<Toolbar id="detailToolbar">
+
+				<content>
+
+					<ToolbarSpacer id="toolbarSpacer"/>
+
+					<Button activeIcon="" icon="sap-icon://accept" id="add" text="{i18n>add.sub.button}" type="Transparent" width="180px" press="onOpenAddSubstituteDialog"/>
+
+					<Button icon="sap-icon://sys-cancel-2" text="{i18n>del.sub.button}" id="delete" type="Transparent" width="100px" visible="false" press="handleDelete"/>
+
+				</content>
+
+			</Toolbar>
+
+			</footer>
+
+	</Page>
+
+</core:View>
